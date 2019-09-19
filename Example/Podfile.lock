@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZPayManager (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZPayManager (from `../`)
+
+EXTERNAL SOURCES:
+  ZPayManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZPayManager: da50e44273b4cc3275cace11e1cb0af8cce17531
+
+PODFILE CHECKSUM: 4dc951cfbbac92be726b77cfc45247374e688782
+
+COCOAPODS: 1.4.0.beta.1

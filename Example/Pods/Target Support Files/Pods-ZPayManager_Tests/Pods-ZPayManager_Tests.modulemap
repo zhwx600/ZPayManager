@@ -1,0 +1,6 @@
+framework module Pods_ZPayManager_Tests {
+  umbrella header "Pods-ZPayManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

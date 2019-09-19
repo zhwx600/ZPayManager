@@ -1,0 +1,6 @@
+framework module ZPayManager {
+  umbrella header "ZPayManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

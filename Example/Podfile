@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZPayManager_Example' do
+  pod 'ZPayManager', :path => '../'
+
+  target 'ZPayManager_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
