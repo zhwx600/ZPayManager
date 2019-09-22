@@ -39,6 +39,7 @@ ss.public_header_files = 'OpenSSL/**/*.h'
 ss.header_dir          = 'openssl'
 ss.preserve_paths      = 'OpenSSL/libcrypto.a', 'OpenSSL/libssl.a'
 ss.vendored_libraries  = 'OpenSSL/libcrypto.a', 'OpenSSL/libssl.a'
+ss.header_mappings_dir = 'OpenSSL/openssl'
 end
 
 s.subspec 'ZWeChat' do |ss|
