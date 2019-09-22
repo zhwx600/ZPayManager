@@ -251,9 +251,10 @@
 				ORGANIZATIONNAME = zhwx600;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = PQ4U5WYJKL;
+						DevelopmentTeam = 43EXBV2TW5;
 					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = PQ4U5WYJKL;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -566,7 +567,7 @@
 			baseConfigurationReference = F7306528112DCF733CF307BF /* Pods-ZPayManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PQ4U5WYJKL;
+				DEVELOPMENT_TEAM = 43EXBV2TW5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZPayManager/UMeng/umcommonlog/umcommonlog_ios_1.0.0",
@@ -598,7 +599,7 @@
 			baseConfigurationReference = C59F708C529DFF1AF802F98C /* Pods-ZPayManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PQ4U5WYJKL;
+				DEVELOPMENT_TEAM = 43EXBV2TW5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZPayManager/UMeng/umcommonlog/umcommonlog_ios_1.0.0",
@@ -631,6 +632,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PQ4U5WYJKL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -656,6 +658,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PQ4U5WYJKL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

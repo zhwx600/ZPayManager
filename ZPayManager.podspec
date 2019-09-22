@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
 s.subspec 'OpenSSL' do |ss|
 ss.source_files = 'OpenSSL/**/*.h'
 ss.public_header_files = 'OpenSSL/**/*.h'
-ss.header_dir          = 'openssl'
+ss.header_dir          = 'OpenSSL/openssl'
 ss.preserve_paths      = 'OpenSSL/libcrypto.a', 'OpenSSL/libssl.a'
 ss.vendored_libraries  = 'OpenSSL/libcrypto.a', 'OpenSSL/libssl.a'
 end
