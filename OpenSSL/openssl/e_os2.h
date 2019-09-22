@@ -53,7 +53,7 @@
  *
  */
 
-#include <openssl/opensslconf.h>
+#include "openssl/opensslconf.h"
 
 #ifndef HEADER_E_OS2_H
 #define HEADER_E_OS2_H
@@ -211,7 +211,7 @@ extern "C" {
 /* --------------------------------- BeOS ---------------------------------- */
 #if defined(__BEOS__)
 # define OPENSSL_SYS_BEOS
-# include <sys/socket.h>
+# include <sys/socket.h"
 # if defined(BONE_VERSION)
 #  define OPENSSL_SYS_BEOS_BONE
 # else
@@ -226,7 +226,7 @@ extern "C" {
 
 /* Specials for I/O an exit */
 #ifdef OPENSSL_SYS_MSDOS
-# define OPENSSL_UNISTD_IO <io.h>
+# define OPENSSL_UNISTD_IO <io.h"
 # define OPENSSL_DECLARE_EXIT extern void exit(int);
 #else
 # define OPENSSL_UNISTD_IO OPENSSL_UNISTD

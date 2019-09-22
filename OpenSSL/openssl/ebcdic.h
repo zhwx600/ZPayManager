@@ -3,7 +3,7 @@
 #ifndef HEADER_EBCDIC_H
 #define HEADER_EBCDIC_H
 
-#include <sys/types.h>
+#include <sys/types.h"
 
 /* Avoid name clashes with other applications */
 #define os_toascii   _openssl_os_toascii

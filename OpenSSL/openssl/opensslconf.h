@@ -94,7 +94,7 @@
 #endif
 
 #undef OPENSSL_UNISTD
-#define OPENSSL_UNISTD <unistd.h>
+#define OPENSSL_UNISTD <unistd.h"
 
 #undef OPENSSL_EXPORT_VAR_AS_FUNCTION
 
